@@ -1,0 +1,78 @@
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+h2 {
+    text-decoration: lightcoral underline;
+    font-weight: bolder;
+    color: indigo;
+}
+
+button {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(56, 141, 141, 0.76);
+}
+
+p {
+    color: #03071e;
+    font-family: calibri;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    background-color: #90e0ef;
+}
+
+#register {
+    background-color: #003049;
+    color: #f0efeb;
+}
+
+.tag {
+    color: #ab2836;
+}
+
+label+input {
+    font-size: 15px;
+    color: black;
+    background-color: white;
+}
+
+input[type="password"] {
+    color: #023047;
+}
+
+section.post {
+    color: purple;
+}
+
+button :hover {
+    background-color: #ab2836;
+    color: #f0efeb;
+}
+
+button :active {
+    background-color: #277da1;
+}
+
+.post:nth-of-type(n) {
+    background-color: #f0efeb;
+}
+
+h2::first-letter {
+    font-size: 35px;
+}
+
+p::first-line {
+    color: purple;
+}
+
+::selection {
+    background-color: lightyellow;
+}
