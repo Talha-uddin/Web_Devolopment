@@ -1,0 +1,1 @@
+// const allLinks = document.querySelectorAll('a')
